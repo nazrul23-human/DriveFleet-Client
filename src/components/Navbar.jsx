@@ -48,7 +48,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <Link
                         href="/home"
-                        className="text-blue-800 font-bold text-3xl sm:text-4xl"
+                        className="text-blue-800 font-bold text-4xl sm:text-4xl"
                     >
                         DriveFleet
                     </Link>
