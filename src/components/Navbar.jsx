@@ -9,8 +9,8 @@ const Navbar = () => {
     const pathname = usePathname();
 
     const navLinks = [
-        { name: "Home", href: "/home" },
-        { name: "Destinations", href: "/destinations" },
+        { name: "Home", href: "/" },
+        { name: "Add Car", href: "/add-car" },
         { name: "My Booking", href: "/my-booking" },
     ];
 
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                     {/* Logo */}
                     <Link
-                        href="/home"
+                        href="/"
                         className="text-blue-800 font-bold text-4xl sm:text-4xl"
                     >
                         DriveFleet
