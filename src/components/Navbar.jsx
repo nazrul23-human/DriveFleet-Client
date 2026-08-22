@@ -47,12 +47,12 @@ const Navbar = () => {
                     </div>
 
                     {/* Logo */}
-                    <Link
+                    <div
                         href="/"
                         className="text-blue-800 font-bold text-4xl sm:text-4xl"
                     >
                         DriveFleet
-                    </Link>
+                    </div>
 
                     {/* Right Menu - Desktop */}
                     <div className="hidden md:flex items-center gap-8">
